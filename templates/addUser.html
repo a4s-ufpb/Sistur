@@ -1,0 +1,23 @@
+
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+</head>
+
+<body>
+
+	 <div class="container center">
+	 	<h4>Sistur</h4>
+        <div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+
+
+	<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type='submit' value='Logar' />
+</form></div>
+</div>
+</body>
+</html>
