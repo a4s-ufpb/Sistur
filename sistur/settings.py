@@ -126,7 +126,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'sistur','media')
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
-LOGIN_URL = '/entrar/'
+LOGIN_URL = '/login/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 #geoposition
