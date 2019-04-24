@@ -130,7 +130,7 @@ LOGIN_URL = '/login/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 #geoposition
-GEOPOSITION_GOOGLE_MAPS_API_KEY = "AIzaSyDgxlAVpQQ4uJ2eftYSnphNIr9EHLW75do"
+GEOPOSITION_GOOGLE_MAPS_API_KEY = ""
 
 GEOPOSITION_MAP_OPTIONS = {
     'minZoom': 3,
